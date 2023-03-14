@@ -49,7 +49,7 @@ export default {
     gotoDetail(goods) {
       console.log(goods);
       uni.navigateTo({
-        url: '/subpkg/goods_details/goods_details?doods_id=' + goods.goods_id
+        url: '/subpkg/goods_details/goods_details?doods_id=' + goods.mygoods_id
       });
     }
   },
